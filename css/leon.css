@@ -281,3 +281,44 @@ body {
 	width: 260px;
 }
 /*ُEnd Services Section*/
+/* Start Protfolio Section */
+.protfolio {
+	padding-top: var(--section-padding);
+	padding-bottom: var(--section-padding);
+	background-color: var(--section-background);
+}
+.protfolio .protfolio-content {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	gap: 30px;
+	margin-top: 100px;
+}
+@media (max-width: 767px) {
+	.protfolio .protfolio-content {
+		text-align: center;
+	}
+}
+.protfolio .protfolio-content .card {
+	background-color: white;
+	transition: 0.5s;
+}
+.protfolio .protfolio-content .card:hover{
+	transform: translateY(-10px);
+	box-shadow: 0px 5px 15px #00000026;
+}
+.protfolio .protfolio-content .card img {
+	max-width: 100%;
+	cursor: pointer;
+}
+.protfolio .protfolio-content .info {
+	padding: 20px;
+}
+.protfolio .protfolio-content .info h3 {
+	margin: 0;
+}
+.protfolio .protfolio-content .info p {
+	color: #444;
+	line-height: 1.6;
+	margin-bottom: 0;
+}
+/* End Protfolio Section */
