@@ -150,3 +150,30 @@ body {
 	padding-left: 25px;
 }
 /*End Header*/
+/*Start landing Section*/
+.landing {
+	background-image: url(../image/mon.jpg);
+	background-size: cover;
+	height: calc(100vh - 64px);
+	position: relative;
+}
+.landing .intro-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	width: 320px;
+	max-width: 100%;
+}
+.landing .intro-text h1 {
+	margin: 0;
+	font-weight: bold;
+	font-size: 50px;
+	color: var(--main-color);
+}
+.landing .intro-text p {
+	line-height: 1.8;
+	font-size: 19px;
+}
+/*End landing Section*/
