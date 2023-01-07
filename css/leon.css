@@ -402,5 +402,60 @@ body {
 	line-height: 2;
 	color: #777;
 }
-
 /* End About Section */
+/* Start Contact Section */
+.contact {
+	padding-top: var(--section-padding);
+	padding-bottom: var(--section-padding);
+	background-color: var(--section-background);
+}
+.contact .info {
+	padding-top: var(--section-padding);
+	padding-bottom: var(--section-padding);
+	text-align: center;
+}
+.contact .info .label {
+	font-size: 35px;
+	font-weight: 800;
+	letter-spacing: -2px;
+	color: var(--secondary-color);
+	margin-bottom: 20px;
+}
+.contact .info .link {
+	display: block;
+	text-decoration: none;
+	color: var(--main-color);
+	font-size: 35px;
+	font-weight: 800;
+	margin-bottom: 20px;
+}
+.contact .info .social {
+	display: flex;
+	justify-content: center;
+	color: #777;
+	font-size: 16px;
+	
+}
+.contact .info .social i {
+	color: var(--secondary-color);
+	margin-left: 15px;
+	cursor: pointer;
+	transition: 0.5s;
+}
+.contact .info .social .youtube:hover{
+	color: rgb(211, 30, 30);
+}
+.contact .info .social .facebook:hover{
+	color: rgb(0, 110, 255);
+}
+.contact .info .social .twitter:hover{
+	color: rgb(0, 183, 255);
+}
+@media (max-width: 767px) {
+	.contact .info .label,
+	.contact .info .link {
+		font-size: 25px;
+	}
+}
+
+/* End Contact Section */
